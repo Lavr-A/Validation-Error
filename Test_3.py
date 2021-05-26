@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-driver = webdriver.Chrome ("D:\Лекции IT Academy\Chrome\chromedriver.exe")
+driver = webdriver.Chrome ("D:\\chromedriver.exe"")
 driver.implicitly_wait(10)
 driver.get("https://accounts.google.com")
 create_account_button = driver.find_element_by_xpath("//*[text()='Создать аккаунт']")
